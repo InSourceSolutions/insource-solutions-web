@@ -9,6 +9,8 @@ import { ServicesComponent } from './services/services.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { JobAbroadComponent } from './job-abroad/job-abroad.component';
 
+//Material Imports
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { JobAbroadComponent } from './job-abroad/job-abroad.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // Material Imports
   ],
   providers: [],
   bootstrap: [AppComponent]
