@@ -11,6 +11,8 @@ import { JobAbroadComponent } from './job-abroad/job-abroad.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 
+//Material Imports
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,8 +24,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FlexLayoutModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
