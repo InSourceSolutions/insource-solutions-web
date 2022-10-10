@@ -1,12 +1,64 @@
-<div fxLayout="row" fxLayoutAlign="space-around center" >
-  <h1> Slider</h1>
-</div>
-<div fxLayout="row" >
-  <img class="img" src="src\assets\Images\image01.jpg"
-  alt="image of cart" />
-  <img class="img" src="src\assets\Images\image02.jpg"
-  alt="image of cart" />
-  <img class="img" src="src\assets\Images\image03.jpg"
-  alt="image of cart" />
+<div fxLayout="column">
+  <div>
+    <!-- <h1>Tool Bar</h1> -->
+    <mat-toolbar class="toolbar">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <h1 class="heading">Insource Software Solutions</h1>
+      <span class="example-spacer"></span>
+      <div fxLayout="row" fxLayoutAlign="space-between center" >
+        <img class="logo" src="../../assets/Images/logos/logo.png"/>
+      </div>
+    </mat-toolbar>
+  </div>
+
+  <div>
+    <!-- <h1>Image Slider</h1> -->
+    <ngb-carousel *ngIf="images">
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="../../assets/Images/banner-1.jpg" alt="Random first slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="../../assets/Images/banner-2.jpg" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="../../assets/Images/banner-3.jpg" alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  <div>
+    <h1>Why do we use it?</h1>
+    <div>
+      <p>
+        It is a long established fact that a reader will be distracted by the readable content of a
+        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+        distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+        search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+        from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the  source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+        Lorem ipsum dolor sit, comes from a line in section 1.10.32.
+      </p>
+    </div>
+  </div>
 </div>
 
