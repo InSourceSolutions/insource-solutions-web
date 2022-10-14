@@ -5,13 +5,16 @@
   display: block;
   text-indent: -9999px;
 }
-.example-spacer {
-  flex: 1 1 auto;
-}
 .toolbar {
-	color: #FFF;
-  background: #2596be;
+  padding: 2px;
+  border-radius: 2px;
+  background: #0A97CC;
 }
-.heading {
-  text-align: auto;
+.menu-buttons {
+  background: #0A97CC;
+  opacity: 0.5;
+  padding-left: 5px;
+}
+.menu-buttons:hover{
+  color: #00339A;
 }

@@ -1,18 +1,29 @@
 <div fxLayout="column">
   <div>
-    <!-- <h1>Tool Bar</h1> -->
     <mat-toolbar class="toolbar">
-      <div fxLayout="row" fxLayoutAlign="space-between center" >
+      <div fxFlex="20" fxLayout="row" fxLayoutAlign="start center" >
         <img class="logo" src="../../assets/Images/logos/logo.png"/>
       </div>
-      <h1 class="heading">Insource Software Solutions</h1>
-      <span class="example-spacer"></span>
-      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-        <mat-icon>menu</mat-icon>
+      <div fxFlex="80" fxLayout="row" fxLayoutAlign="end center">
+      <button mat-raised-button class="menu-buttons">
+        Home
       </button>
+      <button mat-raised-button class="menu-buttons">
+        About Us
+      </button>
+      <button mat-raised-button class="menu-buttons">
+        Services
+      </button>
+      <button mat-raised-button class="menu-buttons">
+        Contact Us
+      </button>
+      <button mat-raised-button class="menu-buttons">
+        Job Abroad
+      </button>
+    </div>
     </mat-toolbar>
   </div>
-  <div>
+  <div fxFlex="100">
     <img style="width:fit-content;" src="../../assets/Images/banner-5.jpg"/>
   </div>
   <div>
