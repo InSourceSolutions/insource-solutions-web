@@ -16,7 +16,6 @@ import {MatButtonModule} from '@angular/material/button';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/header/footer/footer.component';
 
-
 //Material Imports
 
 @NgModule({
