@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/header/footer/footer.component';
 
 
 //Material Imports
@@ -26,7 +27,8 @@ import { HeaderComponent } from './shared/header/header.component';
     ServicesComponent,
     ContactUsComponent,
     JobAbroadComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
