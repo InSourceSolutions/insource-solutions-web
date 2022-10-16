@@ -1,8 +1,29 @@
 .body-image {
-  height: 600px;
-  background-image: url("../../assets/Images/banner-10.jpg");
+  min-height: 550px;
+  background-image: url("../../assets/Images/banner-home.jpg");
   background-repeat: no-repeat;
   margin-top: 3px;
   background-size: cover;
   background-position: center;
+}
+.heading {
+  width: 35%;
+  color: #f9f9f9;
+  font-size: 62px;
+  line-height: 1.2;
+}
+.paragraph {
+  width: 35%;
+  margin-bottom: 25px;
+  color: #f9f9f9;
+  font-size: 18px;
+}
+.info {
+  padding: 100px;
+}
+.contact-us-button{
+  width: fit-content;
+  background: transparent;
+  margin-right: 10px;
+  background-color: #0A97CC;
 }

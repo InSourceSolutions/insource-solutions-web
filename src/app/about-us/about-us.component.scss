@@ -1,8 +1,56 @@
 .body-image {
-  height: 600px;
+  min-height: 550px;
   background-image: url("../../assets/Images/banner-about-us.jpg");
   background-repeat: no-repeat;
   margin-top: 3px;
   background-size: cover;
   background-position: center;
+}
+.heading {
+  width: 35%;
+  color: #f9f9f9;
+  font-size: 62px;
+  line-height: 1.2;
+}
+.paragraph {
+  width: 35%;
+  margin-bottom: 25px;
+  color: #f9f9f9;
+  font-size: 18px;
+}
+.info {
+  padding: 100px;
+}
+.contact-us-button{
+  width: fit-content;
+  background: transparent;
+  margin-right: 10px;
+  background-color: #0A97CC;
+}
+.info-container {
+  padding: 10px;
+  margin-top: 20px;
+}
+.container-heading {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.container-h2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.container-content {
+padding: 100px;
+}
+.about-column {
+  width: 22%;
+}
+.about-column-h3{
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: bold;
 }

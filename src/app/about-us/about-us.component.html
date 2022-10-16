@@ -2,14 +2,62 @@
   <div>
     <app-header></app-header>
   </div>
-  <div fxFlex="100">
-    <div class="body-image">
+  <div class="body-image">
+    <div class="info" fxLayout="column" fxFlex="80">
+      <h1 class="heading">Why do we use it?</h1>
+      <p class="paragraph">
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of
+        using Lorem Ipsum is that it has a more-or-less normal
+      </p>
+      <button mat-flat-button class="contact-us-button" (click)="onContactUsClick()">
+        Contact Us
+      </button>
     </div>
   </div>
-  <div style="padding: 10px">
-    <h1>Why do we use it?</h1>
-    <div>
-      <p>
+  <div fxLayout="column" fxLayoutAlign="center center" fxFlex="50" class="info-container">
+    <p class="container-heading">Why Insource Software Solutions?</p>
+    <h2 class="container-h2">
+      We are the one where Innovation Meets Excellence
+    </h2>
+    <p>
+      We are a fast growing startup creating the best possible experience for
+      our customers.
+    </p>
+    <div fxLayout="row" class="container-content" fxLayoutAlign="space-evenly center">
+      <div class="about-column">
+        <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84b9ccd071025d67c7e431_verified.svg"
+          alt="Warranty Icon" class="image" />
+        <h3 class="about-column-h3">Lifetime Warranty</h3>
+        <p>
+          All our products — whether we make them or not — are backed by our lifetime warranty.
+        </p>
+      </div>
+      <div class="about-column">
+        <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba18359d4c7fc8ba04d2_cart.svg"
+          alt="Warranty Icon" class="image" />
+        <h3 class="about-column-h3">Shopping Experience</h3>
+        <p>
+          All our products — whether we make them or not — are backed by our lifetime warranty.
+        </p>
+      </div>
+      <div class="about-column">
+        <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba26d07102b2bcc7e4fb_transport.svg"
+          alt="Warranty Icon" class="image" />
+        <h3 class="about-column-h3">On-time Delivery</h3>
+        <p>
+          All our products — whether we make them or not — are backed by our lifetime warranty.
+        </p>
+      </div>
+      <div class="about-column">
+        <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba313e8232516a7da902_chat-alt.svg"
+          alt="Warranty Icon" class="image" />
+        <h3 class="about-column-h3">Best in Class Service</h3>
+        <p>
+          All our products — whether we make them or not — are backed by our lifetime warranty.
+        </p>
+      </div>
+      <!-- <p>
         It is a long established fact that a reader will be distracted by the readable content of a
         page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
         distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
@@ -19,11 +67,10 @@
         literature from 45 BC, making it over 2000 years old. Richard, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
         from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the  source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
         Lorem ipsum dolor sit, comes from a line in section 1.10.32.
-      </p>
+      </p> -->
     </div>
   </div>
   <div>
     <app-footer></app-footer>
   </div>
 </div>
-
