@@ -14,3 +14,11 @@ mat-form-field{
   background-color: #00339A;
   color: #fff;
 }
+.body-image {
+  min-height: 550px;
+  background-image: url("../../assets/Images/Banner-3-contact-us.jpg");
+  background-repeat: no-repeat;
+  margin-top: 3px;
+  background-size: cover;
+  background-position: center;
+}
