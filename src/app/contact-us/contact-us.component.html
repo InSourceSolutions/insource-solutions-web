@@ -3,12 +3,40 @@
     <app-header></app-header>
   </div>
   <div class="body-image">
-  </div>
-  <div class="contact-us-form" fxLayout="column" fxLayoutAlign="space-evenly center">
-    <div fxLayoutAlign="space-evenly center">
-      <h1>Contact Us</h1>
+    <div class="container contact">
+      <h1 class="heading">Contact Acme Outdoors</h1>
+      <div class="contact-block-wrapper">
+        <div class="contact-block">
+          <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba313e8232516a7da902_chat-alt.svg" alt="" class="contact-icon">
+          <h2>Contact Us</h2>
+          <p>Just want to say hi?&nbsp;We'd love to hear from you. We love our customers and community!&nbsp;</p>
+          <a href="#contact" class="btn w-button">Send Us A Message</a>
+        </div>
+        <div class="contact-block">
+          <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e850414db1f6ebfba8bc42d_chat-warning.svg" alt="" class="contact-icon">
+          <h2>Get Support</h2>
+          <p>Have an issue with an order or with a product you purchased from us?&nbsp;Fill out our support form.</p>
+          <a href="https://university.webflow.com/support" target="_blank" class="btn w-button">Contact Support</a>
+        </div>
+      </div>
     </div>
-    <div fxLayout="row" fxLayoutAlign="space-evenly center">
+  </div>
+  <div fxLayout="column" fxLayoutAlign="start start">
+    <div class="contactus-content">
+      <h1>
+        Contact Us
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+      </p>
+    </div>
+  </div>
+  <div class="contact-us-form" fxLayout="column" fxLayoutAlign="end end">
+    <div class="contact-form-heading">
+      <h1 class="contact-heading">Contact Form</h1>
+      <p>Send us a message and we'll get back to you as soon as we can!</p>
+    </div>
+    <div class="contact-right" fxLayout="column" fxLayoutAlign="space-evenly center">
       <mat-form-field appearance="outline">
         <mat-label>First Name</mat-label>
         <input matInput placeholder="First Name" />
@@ -36,7 +64,7 @@
         <input matInput placeholder="Address" />
       </mat-form-field>
     </div>
-    <div fxLayout="row" fxLayoutAlign="space-evenly center">
+    <div>
       <mat-form-field appearance="outline">
         <mat-label>Post Code</mat-label>
         <input matInput placeholder="Post Code" />
@@ -52,7 +80,7 @@
         <textarea matInput></textarea>
       </mat-form-field>
     </div>
-    <div>
+    <div class="contact-right">
       <button class="submit-button" mat-flat-button (click)="onSubmitClick()">
         Submit
       </button>

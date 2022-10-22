@@ -2,7 +2,9 @@ mat-form-field{
   margin-right: 10px;
 }
 .contact-us-form {
-  margin-top: 50px;
+  margin-top: 20px;
+  padding-right: 150px;
+
 }
 .submit-button {
   background: transparent;
@@ -22,3 +24,67 @@ mat-form-field{
   background-size: cover;
   background-position: center;
 }
+.container.contact {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+.heading {
+  margin-top: 120px;
+  color: #fff;
+  display: block;
+  font-size: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  line-height: 44px;
+  color: #fff;
+  text-indent: 24px;
+}
+
+.contact-block-wrapper {
+  justify-content: space-between;
+  display: flex;
+  margin-right: 520px;
+}
+
+.contact-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  min-height: 230px;
+  margin-top: 25px;
+  margin-left: 28px;
+  padding: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #222;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.contact-right {
+  margin-right: 210px;
+}
+.contact-form-heading{
+  margin-right:20px;
+ }
+
+ .contactus-content {
+  position:relative;
+  left:80px;
+  top: 100px;
+ }
