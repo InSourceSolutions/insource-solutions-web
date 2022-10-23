@@ -13,8 +13,12 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onHomeClick(): void {
+  onLogoClick(): void {
     this.router.navigate([''])
+  }
+
+  onHomeClick(): void {
+    this.router.navigate(['home'])
   }
 
   onAboutUsClick(): void {
