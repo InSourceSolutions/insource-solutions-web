@@ -18,6 +18,18 @@
   color: #f9f9f9;
   font-size: 18px;
 }
+.heading-content {
+  width: 40%;
+  font-size: 24x;
+  line-height: 1.2;
+  font-weight: bold;
+  padding: 2px;
+  margin-right: 3px;
+  text-align: center;
+}
+.paragraph-content {
+  font-size: 16px;
+}
 .info {
   padding: 100px;
 }
@@ -27,30 +39,62 @@
   margin-right: 10px;
   background-color: #0A97CC;
 }
-.info-container {
-  padding: 10px;
-  margin-top: 20px;
+
+.about_card-container {
+  display: flex;
+  justify-content: center;
 }
-.container-heading {
-  font-size: 14px;
-  text-transform: uppercase;
+
+.about_card .about-detail {
+  padding: 2px 25px 35px 25px;
 }
-.container-h2{
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 32px;
-  line-height: 36px;
-  font-weight: bold;
+
+.about_img-container {
+  width: 225px;
+  height: 225px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 25px solid #d7daf4;
+  margin: 0 auto 45px auto;
 }
-.container-content {
-padding: 100px;
+
+.layout_padding2-top {
+  padding-top: 45px;
 }
-.about-column {
-  width: 22%;
+
+.about_card img {
+  width: 104%;
+  position: relative;
 }
-.about-column-h3{
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 20px;
-  font-weight: bold;
+.billing-image {
+  position: relative;
+  right: 4px;
+  top: 4px;
+}
+.cms-image {
+  position: relative;
+  right: 7px;
+  top: 8px;
+}
+.crm-image {
+  position: relative;
+  right: 6px;
+  top: 4px;
+}
+.ecommerce-image {
+  position: relative;
+  right: 6px;
+  top: 4px;
+}
+.iot-image {
+  position: relative;
+  right: 6px;
+  top: 4px;
+}
+.mobdev-image {
+  position: relative;
+  right: 6px;
+  top: 4px;
 }

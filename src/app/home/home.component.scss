@@ -19,18 +19,6 @@
   color: #f9f9f9;
   font-size: 18px;
 }
-.heading-content {
-  width: 40%;
-  font-size: 24x;
-  line-height: 1.2;
-  font-weight: bold;
-  padding: 2px;
-  margin-right: 3px;
-  text-align: center;
-}
-.paragraph-content {
-  font-size: 16px;
-}
 .info {
   padding: 100px;
 }
@@ -40,73 +28,38 @@
   margin-right: 10px;
   background-color: #0A97CC;
 }
+.info-container {
+  padding: 10px;
+  margin-top: 20px;
+}
+.container-heading {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.container-h2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.container-content {
+padding: 100px;
+}
+.about-column {
+  width: 28%;
 
+}
+.about-column-last {
+  width: 28%;
+}
+.about-column-h3{
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.image-content{
+  width: 100px;
+ }
 
-.about_card-container {
-  display: flex;
-  justify-content: center;
-}
-
-.about_card .about-detail {
-  padding: 2px 25px 35px 25px;
-}
-
-.about_img-container {
-  width: 225px;
-  background-color: #381ecc;
-  height: 225px;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 25px solid #d7daf4;
-  margin: 0 auto 45px auto;
-}
-
-.layout_padding2-top {
-  padding-top: 45px;
-}
-
-.about_card .about_img-box {
-  width: 158px;
-}
-
-.about_card .about-detail p {
-  margin-top: 15px;
-}
-
-.about_card img {
-  width: 100%;
-  position: relative;
-  top: -40px;
-  right: -10px;
-}
-.cms_image {
-  position: relative;
-  top: 48px;
-  left: -13px;
-}
-.crm_image {
-  width: 80%;
-  position: relative;
-  top: -5px;
-  right: 6px;
-}
-.ecommerce_Img {
-  width: 80%;
-  position: relative;
-  top: -20px;
-}
-.iot_image {
-  width: 80%;
-  position: relative;
-  top: 38px;
-  left: -15px;
-}
-.mob_dev_img {
-  width: 100%;
-  position: relative;
-  top: -30px
-}
-
-/* end about section */
