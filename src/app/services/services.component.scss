@@ -5,64 +5,24 @@
   line-height: 36px;
   font-weight: bold;
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 41px;
-  margin-bottom: 40px;
-}
-.column {
-  width: 100%;
-  padding: 0 1em 1em 1em;
-  text-align: center;
-  margin-right: 218px;
-}
-
-.last-column{
-  width: 30%;
-  padding: 0 1em 1em 1em;
-  text-align: center;
-  margin-left: 360px;
-}
-section {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  place-items: center;
-}
 .card {
-  width: 140%;
-  height: 100%;
   padding: 2em 1.5em;
   background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
   background-size: 100% 200%;
   background-position: 0 2.5%;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
   cursor: pointer;
-  transition: 0.5s;
-}
-.card-img{
-  width: 120px;
-  height: 120px;
-}
-h3 {
-  font-size: 20px;
-  font-weight: 600;
-  color: #1f194c;
-  margin: 1em 0;
-}
-p {
-  color: #575a7b;
-  font-size: 13px;
+  text-align: center;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  height: 85vh;
+  width: 70vh;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: 0.5s;
 }
 .card:hover {
   background-position: 0 100%;
@@ -77,29 +37,4 @@ p {
 .card:hover p {
   color: #f0f0f0;
 }
-@media screen and (min-width: 768px) {
-  section {
-    padding: 0 2em;
-  }
-  .column {
-    flex: 0 50%;
-    max-width: 50%;
-  }
-  .lastcolumn {
-    flex: 0 50%;
-    max-width: 50%;
-  }
-}
-@media screen and (min-width: 992px) {
-  section {
-    padding: 1em 3em;
-  }
-  .column {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-  }
-  .lastcolumn {
-    flex: 0 50%;
-    max-width: 50%;
-  }
-}
+

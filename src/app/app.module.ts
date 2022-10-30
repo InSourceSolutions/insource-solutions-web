@@ -16,6 +16,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/header/footer/footer.component';
 import { MatInputModule } from '@angular/material/input';
+import {MatCardModule} from '@angular/material/card';
 
 //Material Imports
 
@@ -38,7 +39,8 @@ import { MatInputModule } from '@angular/material/input';
     BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
