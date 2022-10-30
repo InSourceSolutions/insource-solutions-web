@@ -16,6 +16,9 @@ export class AboutUsComponent implements OnInit {
   onContactUsClick(): void {
     this.router.navigate(['contact-us'])
   }
+  onLogoClick(): void {
+    this.router.navigate(['home'])
+  }
 
 
 }

@@ -6,6 +6,10 @@
   background-size: cover;
   background-position: center;
 }
+.logo {
+  width: fit-content;
+  height: 100px;
+}
 .heading {
   width: 35%;
   color: #f9f9f9;
@@ -115,4 +119,48 @@
   position: relative;
   right: 6px;
   top: 4px;
+}
+.meet-the-owners-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.meet-the-owners-right {
+  width: 30%;
+  padding: 90px 170px 90px 150px;
+  border-radius: 10px;
+  background-color: #0A97CC;
+  color: #f9f9f9;
+  right: 200%;
+  left: auto;
+  margin-right: 50px;
+
+}
+.owners-rich-text w-richtext{
+  -webkit-text-size-adjust: 100%;
+  font-family: Sen, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #f9f9f9;
+  box-sizing: border-box;
+}
+.meet-the-owners-left {
+  position: absolute;
+  left: 3%;
+  top: 5%;
+  right: auto;
+  bottom: 0%;
+  width: 45%;
+  height: 90%;
+  border-radius: 10px;
+  background-image: url("../../assets/Images/logos/logo-web-1.png");
+  background-position: 0px;
+  background-size: cover;
+  background-color: rgb(14, 204, 238);
 }
