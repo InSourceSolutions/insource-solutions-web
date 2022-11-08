@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/insource/repositories/insource-solutions-web
+    - export DEPLOYPATH=/home/insource/public_html/
     - /bin/cp -R images $DEPLOYPATH
