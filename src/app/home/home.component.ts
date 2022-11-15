@@ -17,5 +17,9 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['contact-us'])
   }
 
+  onProvidedServiceClick(): void {
+    this.router.navigate(['services'])
+  }
+
 
 }

@@ -20,5 +20,9 @@ export class AboutUsComponent implements OnInit {
     this.router.navigate(['home'])
   }
 
+  onProvidedServiceClick(): void {
+    this.router.navigate(['services'])
+  }
+
 
 }
