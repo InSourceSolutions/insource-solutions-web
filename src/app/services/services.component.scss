@@ -5,36 +5,84 @@
   line-height: 36px;
   font-weight: bold;
 }
-.card {
-  padding: 2em 1.5em;
-  background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
-  background-size: 100% 200%;
-  background-position: 0 2.5%;
-  border-radius: 20px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
+
+.heading{
+  font-size: 20px;
   text-align: center;
+  font-weight: bold;
   line-height: 1.6;
-  letter-spacing: 0.03em;
-  height: 85vh;
-  width: 70vh;
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  transition: 0.5s;
-}
-.card:hover {
-  background-position: 0 100%;
-}
-.card:hover .icon-wrapper {
-  background-color: #ffffff;
-  color: #2c7bfe;
-}
-.card:hover h3 {
-  color: #ffffff;
-}
-.card:hover p {
-  color: #f0f0f0;
+  letter-spacing: 0.05em;
 }
 
+.card {
+  padding: 1em 1.1em;
+  width: 430px;
+  height: 320px;
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.4s ease-out;
+  cursor: pointer;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.card:hover {
+  transform: translateY(20px);
+}
+.card:hover:before {
+  opacity: 1;
+}
+.card:hover .info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.card:before {
+  content: "";
+  position: absolute;
+  top: -7px;;
+  right: -0px;
+  display: block;
+  width: 100%;
+  height: 102%;
+  background: rgba(38, 3, 240, 0.6);
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+}
+.card img {
+  width: 463px;
+  height: 354px;
+  position: absolute;
+  object-fit: cover;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  top: 10px;
+  left: 15px;
+}
+.card:hover .img {
+  opacity: 0;
+}
+
+.card .info {
+  position: relative;
+  z-index: 3;
+  color: white;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+.card .info .title {
+  text-align: center;
+  margin-bottom:45px ;
+}
+.card .info .content {
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.6em;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  margin-bottom: 60px;
+}

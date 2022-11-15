@@ -3,40 +3,14 @@
     <app-header></app-header>
   </div>
   <div class="body-image">
-      <h1 class="heading">Contact Insource Software Solutions</h1>
-      <!-- <div class="contact-block-wrapper">
-        <div class="contact-block">
-          <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba313e8232516a7da902_chat-alt.svg"
-            alt="" class="contact-icon">
-          <h2>Contact Us</h2>
-          <p>Just want to say hi?&nbsp;We'd love to hear from you. We love our customers and community!&nbsp;</p>
-          <a href="#contact" class="btn w-button">Send Us A Message</a>
-        </div>
-        <div class="contact-block">
-          <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e850414db1f6ebfba8bc42d_chat-warning.svg"
-            alt="" class="contact-icon">
-          <h2>Get Support</h2>
-          <p>Have an issue with an order or with a product you purchased from us?&nbsp;Fill out our support form.</p>
-          <a href="https://university.webflow.com/support" target="_blank" class="btn w-button">Contact Support</a>
-        </div>
-      </div> -->
+      <h1 class="heading-banner ">Contact Insource Software Solutions</h1>
   </div>
-  <div fxLayout="column" fxLayoutAlign="start start">
-    <div class="contactus-content">
-      <h1>
-        Contact Us
-      </h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      </p>
-    </div>
-  </div>
-  <div class="contact-us-form" fxLayout="column" fxLayoutAlign="end end">
-    <div class="contact-form-heading">
-      <h1 class="contact-heading">Contact Form</h1>
-      <p>Send us a message and we'll get back to you as soon as we can!</p>
-    </div>
+  <div class="contact-us-form" fxLayout="column" fxLayoutAlign="center center">
     <div fxLayout="column" fxLayoutAlign="space-evenly center">
+      <div>
+        <h1 class="heading">Contact Form</h1>
+        <p>Send us a message and we'll get back to you as soon as we can!</p>
+      </div>
       <div fxLayout="row">
         <mat-form-field appearance="outline">
           <mat-label>First Name</mat-label>
@@ -48,12 +22,13 @@
         </mat-form-field>
       </div>
     </div>
-    <div>
-      <mat-form-field style="width: 410px" appearance="outline">
-        <mat-label>Enter your email</mat-label>
-        <input matInput placeholder="Email" required />
-      </mat-form-field>
-    </div>
+    <div fxLayout="column" fxLayoutAlign="space-evenly center">
+      <div>
+        <mat-form-field style="width: 410px" appearance="outline">
+          <mat-label>Enter your email</mat-label>
+          <input matInput placeholder="Email" required />
+        </mat-form-field>
+      </div>
     <div>
       <mat-form-field style="width: 410px" appearance="outline">
         <mat-label>Phone Number</mat-label>
@@ -66,6 +41,7 @@
         <input matInput placeholder="Address" />
       </mat-form-field>
     </div>
+
     <div>
       <mat-form-field appearance="outline">
         <mat-label>Post Code</mat-label>
@@ -86,6 +62,7 @@
       <button class="submit-button" mat-flat-button (click)="onSubmitClick()">
         Submit
       </button>
+    </div>
     </div>
   </div>
   <app-footer></app-footer>

@@ -65,12 +65,18 @@
 .about_card-container {
   display: flex;
   justify-content: center;
+  transition: .2s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
 }
 
 .about_card .about-detail {
   padding: 2px 25px 35px 25px;
 }
-
+.about_card:hover{
+  transform: scale(1.05);
+}
 .about_img-container {
   width: 225px;
   height: 225px;
@@ -95,10 +101,10 @@
   right: 4px;
   top: 4px;
 }
-.cms-image {
+.web-image {
   position: relative;
-  right: 7px;
-  top: 8px;
+  right: 4px;
+  top: 4px;
 }
 .crm-image {
   position: relative;
@@ -122,9 +128,6 @@
 }
 .meet-the-owners-wrapper {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
@@ -142,14 +145,7 @@
   margin-right: 50px;
 
 }
-.owners-rich-text w-richtext{
-  -webkit-text-size-adjust: 100%;
-  font-family: Sen, sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #f9f9f9;
-  box-sizing: border-box;
-}
+
 .meet-the-owners-left {
   position: absolute;
   left: 3%;
@@ -164,3 +160,5 @@
   background-size: cover;
   background-color: rgb(14, 204, 238);
 }
+
+
