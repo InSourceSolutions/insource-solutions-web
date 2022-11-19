@@ -45,20 +45,19 @@
   line-height: 36px;
   font-weight: bold;
 }
-.container-content {
-  padding: 30px;
-}
+
 .about-column {
-  width: 28%;
-  padding: 30px;
+  width: 26%;
+  padding: 20px;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s
+  box-shadow,.3s-webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
 }
 .about-column:hover {
   cursor: pointer;
+  transform: scale(1.05);
 }
-.about-column-last {
-  width: 28%;
-}
-.about-column-h3{
+.about-heading{
   font-size: 24px;
   line-height: 30px;
   margin-top: 20px;
@@ -66,9 +65,4 @@
 }
 .image-content{
   width: 100px;
-  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  cursor: pointer;
- }
- .image-content:hover{
-  transform: scale(1.05);
  }

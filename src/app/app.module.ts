@@ -17,6 +17,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/header/footer/footer.component';
 import { MatInputModule } from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { FormsModule,ReactiveFormsModule }   from '@angular/forms';
 
 //Material Imports
 
@@ -40,7 +42,10 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     MatButtonModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    MatSidenavModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,20 +1,4 @@
-mat-form-field{
-  margin-right: 10px;
-}
-.contact-us-form {
-  margin-top: 20px;
-  padding-right: 150px;
-}
-.submit-button {
-  background: transparent;
-  margin-bottom: 65px;
-  background-color: #0A97CC;
 
-}
-.submit-button:hover{
-  background-color: #00339A;
-  color: #fff;
-}
 .body-image {
   min-height: 550px;
   background-image: url("../../assets/Images/Banner-3-contact-us.jpg");
@@ -49,6 +33,23 @@ mat-form-field{
   font-weight: bold;
   color: rgb(0, 0, 0);
   text-align: center;
+}
+
+mat-form-field{
+  margin-right: 10px;
+}
+.contact-us-form {
+  margin-top: 20px;
+}
+.submit-button {
+  background: transparent;
+  margin-bottom: 65px;
+  background-color: #0A97CC;
+
+}
+.submit-button:hover{
+  background-color: #00339A;
+  color: #fff;
 }
 
 

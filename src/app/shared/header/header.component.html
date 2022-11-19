@@ -2,7 +2,7 @@
   <div fxFlex="40" fxLayout="row" fxLayoutAlign="start center" >
     <img (click)="onLogoClick()" class="logo" src="../../assets/Images/logos/logo-web-1.png" />
   </div>
-  <div fxFlex="80" fxLayout="row" fxLayoutAlign="end center" fxFlex fxShow="true" fxShow.sm>
+  <div fxFlex="80" fxLayout="row" fxLayoutAlign="end center" fxShow="true" fxHide.lt-md="true">
     <button mat-flat-button class="menu-buttons" (click)="onHomeClick()">
       Home
     </button>
@@ -20,3 +20,4 @@
     </button>
   </div>
 </mat-toolbar>
+
