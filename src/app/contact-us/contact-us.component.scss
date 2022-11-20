@@ -1,11 +1,11 @@
 
 .body-image {
-  min-height: 550px;
+  height: 100vh;
   background-image: url("../../assets/Images/Banner-3-contact-us.jpg");
   background-repeat: no-repeat;
   margin-top: 3px;
-  background-size: cover;
   background-position: center;
+  background-size: 100% 100%;
 }
 .container.contact {
   position: absolute;

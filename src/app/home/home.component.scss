@@ -1,9 +1,8 @@
 .body-image {
-  min-height: 550px;
   background-image: url("../../assets/Images/banner-home.jpg");
   background-repeat: no-repeat;
   margin-top: 3px;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   margin-bottom: 20px;
   position: relative;
@@ -66,3 +65,15 @@
 .image-content{
   width: 100px;
  }
+
+ @media only screen and (max-width: 767px) {
+  .body-image {
+    background-image: url("../../assets/Images/banner-home.jpg");
+  }
+}
+
+@media (min-width: 1281px) {
+  .body-image {
+    background-image: url("../../assets/Images/banner-home.jpg");
+  }
+}
