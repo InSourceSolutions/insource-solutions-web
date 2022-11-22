@@ -1,39 +1,25 @@
 <mat-toolbar class="toolbar">
-  <div fxLayout="row" fxLayoutAlign="start center">
-    <div fxShow="true" fxHide.gt-sm="true">
-      <button mat-icon-button (click)="sidenav.toggle()">
-        <mat-icon style="color: rgb(4, 89, 168);">menu</mat-icon>
+  <mat-toolbar-row>
+    <div fxFlex="40" fxLayout="row" fxLayoutAlign="start center" >
+      <img (click)="onLogoClick()" class="logo" src="../../assets/Images/logos/logo-web-1.png" />
+    </div>
+    <div fxFlex="80" fxLayout="row" fxLayoutAlign="end center">
+      <button mat-flat-button class="menu-buttons" (click)="onHomeClick()">
+        Home
+      </button>
+      <button mat-flat-button class="menu-buttons" (click)="onAboutUsClick()">
+        About Us
+      </button>
+      <button mat-flat-button class="menu-buttons" (click)="onServicesClick()">
+        Services
+      </button>
+      <button mat-flat-button class="menu-buttons" (click)="onContactUsClick()">
+        Contact Us
+      </button>
+      <button mat-flat-button class="menu-buttons" [disabled]="true" (click)="onJobAbroadClick()">
+        Job Abroad
       </button>
     </div>
-    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true">
-      <div fxLayout="row">
-        <a mat-button (click)="onHomeClick()">Home</a>
-        <a mat-button (click)="onAboutUsClick()">About Us</a>
-        <a mat-button (click)="onServicesClick()">Services</a>
-        <a mat-button (click)="onContactUsClick()">Contact Us</a>
-        <a mat-button [disabled]="true" (click)="onJobAbroadClick()">Job Abroad</a>
-      </div>
-    </mat-sidenav>
-  </div>
-  <div fxFlex="40" fxLayout="row" fxLayoutAlign="start center" >
-    <img (click)="onLogoClick()" class="logo" src="../../assets/Images/logos/logo-web-1.png" />
-  </div>
-  <div fxFlex="80" fxLayout="row" fxLayoutAlign="end center" fxShow="true" fxHide.lt-md="true">
-    <button mat-flat-button class="menu-buttons" (click)="onHomeClick()">
-      Home
-    </button>
-    <button mat-flat-button class="menu-buttons" (click)="onAboutUsClick()">
-      About Us
-    </button>
-    <button mat-flat-button class="menu-buttons" (click)="onServicesClick()">
-      Services
-    </button>
-    <button mat-flat-button class="menu-buttons" (click)="onContactUsClick()">
-      Contact Us
-    </button>
-    <button mat-flat-button class="menu-buttons" [disabled]="true" (click)="onJobAbroadClick()">
-      Job Abroad
-    </button>
-  </div>
+  </mat-toolbar-row>
 </mat-toolbar>
 

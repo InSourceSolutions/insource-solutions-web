@@ -1,11 +1,13 @@
 
 .body-image {
   height: 100vh;
+  width: auto;
   background-image: url("../../assets/Images/Banner-3-contact-us.jpg");
   background-repeat: no-repeat;
   margin-top: 3px;
   background-position: center;
   background-size: 100% 100%;
+  position: relative;
 }
 .container.contact {
   position: absolute;
@@ -17,13 +19,11 @@
 .heading-banner {
   margin-top: 50px;
   color: #fff;
-  display: block;
   font-size: 2em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-weight: bold;
   line-height: 44px;
-  text-indent: 24px;
+  text-align: left;
+  padding: 30px;
 
 }
 .heading {

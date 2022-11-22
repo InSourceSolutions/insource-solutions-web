@@ -19,6 +19,7 @@ import { MatInputModule } from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { FormsModule,ReactiveFormsModule }   from '@angular/forms';
+import {MatListModule} from '@angular/material/list';
 
 //Material Imports
 
@@ -31,7 +32,7 @@ import { FormsModule,ReactiveFormsModule }   from '@angular/forms';
     ContactUsComponent,
     JobAbroadComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,7 +46,8 @@ import { FormsModule,ReactiveFormsModule }   from '@angular/forms';
     MatCardModule,
     MatSidenavModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
