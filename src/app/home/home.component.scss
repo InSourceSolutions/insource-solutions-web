@@ -5,8 +5,6 @@
   background-size: 100% 100%;
   background-position: center;
   margin-bottom: 20px;
-  position: relative;
-  width: auto;
 }
 .heading {
   width: 35%;
@@ -47,11 +45,14 @@
 }
 
 .about-column {
-  width: 26%;
-  padding: 20px;
+  width: 20%;
   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s
   box-shadow,.3s-webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   cursor: pointer;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .about-column:hover {
   cursor: pointer;
@@ -66,15 +67,3 @@
 .image-content{
   width: 100px;
  }
-
- @media only screen and (max-width: 767px) {
-  .body-image {
-    background-image: url("../../assets/Images/banner-home.jpg");
-  }
-}
-
-@media (min-width: 1281px) {
-  .body-image {
-    background-image: url("../../assets/Images/banner-home.jpg");
-  }
-}

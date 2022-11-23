@@ -1,6 +1,6 @@
 <mat-toolbar class="toolbar">
   <mat-toolbar-row>
-    <div fxShow="true" fxHide.gt-sm="true">
+    <div fxShow="true" fxHide.gt-xs="true">
       <button mat-icon-button (click)="sidenav.toggle()">
         <mat-icon style="color: rgb(4, 89, 168);">menu</mat-icon>
       </button>
@@ -28,8 +28,8 @@
     </div>
   </mat-toolbar-row>
 </mat-toolbar>
-<mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true">
-      <div fxLayout="row" class="">
+<mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-xs="true">
+      <div fxLayout="row">
         <a mat-button (click)="onHomeClick()">Home</a>
         <a mat-button (click)="onAboutUsClick()">About Us</a>
         <a mat-button (click)="onServicesClick()">Services</a>
